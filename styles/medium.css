@@ -27,8 +27,10 @@
     font-size: 1.2rem;
   }
 
-  footer h2,
-  footer h3 {
+  footer h2 {
     font-size: 1.5rem;
+  }
+  footer h3 {
+    font-size: 1.3rem;
   }
 }
