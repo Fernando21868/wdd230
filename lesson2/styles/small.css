@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  letter-spacing: 0.05rem;
+}
+
+header,
+main,
+footer {
+  margin: 1.25rem auto;
+  max-width: 760px;
+}
+
+header,
+footer {
+  background: #2193b0;
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  color: #fff;
+  text-align: center;
+  box-shadow: 2px 2px 8px #333;
+  line-height: 1.8rem;
+}
+
+header {
+  text-shadow: 2px 2px 8px #333;
+  padding: 1.5rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+header h2 {
+  font-size: 1.2rem;
+}
+
+main {
+  max-width: 767px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 0.8rem;
+}
+
+main section {
+  border: 1px solid #000;
+  margin: 1rem;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #eee;
+  overflow: hidden;
+}
+
+main section h2 {
+  font-size: 1.2rem;
+  background: #6fc2d7;
+  margin: 0;
+  padding: 1rem;
+}
+
+main section p {
+  line-height: 1.2rem;
+  padding: 0 1rem;
+  font-size: 0.8rem;
+}
+
+main section a {
+  font-size: 0.8rem;
+  padding: 0 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+main section div {
+  padding: 0 1rem;
+}
+
+main section div img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #bbb;
+}
+
+footer {
+  line-height: 1.8rem;
+  padding-top: 10px;
+}
+
+footer h2 {
+  font-size: 1.2rem;
+}
+
+footer h3 {
+  font-size: 1rem;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  color: #02198b;
+}

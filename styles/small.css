@@ -1,10 +1,9 @@
 body {
-  font-size: 18px;
-  line-height: 1.5;
-  background: #e0eafc;
-  background: -webkit-linear-gradient(to right, #cfdef3, #e0eafc);
-  background: linear-gradient(to right, #cfdef3, #e0eafc);
-  font-family: Helvetica, sans-serif, serif;
+  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.05rem;
+  line-height: 1.8rem;
+  box-sizing: border-box;
 }
 
 header,
@@ -17,7 +16,6 @@ footer {
 
 header,
 footer {
-  border-radius: 10px;
   background: #2193b0;
   background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
   background: linear-gradient(to right, #6dd5ed, #2193b0);
@@ -27,48 +25,56 @@ footer {
 }
 
 header {
-  text-shadow: 2px 2px 8px #333;
-  font-size: 28px;
   padding: 1.5rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 header img {
-  box-shadow: 2px 2px 8px #333;
-  margin-right: 60px;
   width: 200px;
+  height: auto;
+}
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+main {
+  font-size: 1rem;
 }
 
 section h2 {
+  margin: 0 1rem;
+  font-size: 1.2rem;
   color: #000000;
   text-shadow: 2px 2px 8px #333;
   border-bottom: 1px solid #000;
 }
 
-main section {
-  font-size: 22px;
+section ul {
+  margin: 1rem;
 }
 
 main p {
+  margin: 0 1rem;
   font-style: italic;
-  font-size: 20px;
   color: #333;
   border-top: 1px solid #000;
 }
 
 footer {
   padding-top: 10px;
-  margin-top: 40px;
 }
 
 footer h2 {
-  margin: 15px auto;
+  font-size: 1.2rem;
 }
 
 footer h3 {
-  margin-top: -15px;
+  font-size: 1rem;
+  margin-top: -10px;
   padding-bottom: 10px;
   color: #02198b;
 }
