@@ -64,7 +64,6 @@ nav {
   max-width: 815px;
   overflow: hidden;
   background: #232b2bca;
-  /* background-color: #128faf; */
   text-align: center;
   box-shadow: 0 0 8px #333;
 }
@@ -125,7 +124,8 @@ section h2 {
   color: #eee;
 }
 
-section p {
+section p,
+li {
   color: #333;
   line-height: 1.2rem;
   padding: 0 1rem;
@@ -133,29 +133,86 @@ section p {
 }
 
 .span-2 {
-  max-width: 350px;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 0 1rem;
 }
 
-.primary {
+section h1 {
+  font-size: 1.2rem;
+  text-align: left;
+  color: #232b2b;
+  text-shadow: none;
+}
+
+.site-header {
   background-color: #232b2b;
   padding: 0.5rem;
   border-radius: 10px;
   color: #eee;
 }
 
-.secondary {
-  background-color: #333;
-  padding: 0.5rem;
-  border-radius: 10px;
-  color: #eee;
+section .primary-navigation {
+  font-size: 1rem;
+  background-color: inherit;
+  color: #232b2bca;
 }
 
-.alternative {
-  background-color: #2998ff;
-  padding: 0.5rem;
+section .primary-navigation span {
   border-radius: 10px;
+  background-color: #232b2bca;
   color: #eee;
+  padding: 0.5rem;
+}
+
+section .hover-navigation {
+  font-size: 1rem;
+  background-color: inherit;
+  color: #232b2b8a;
+}
+
+section .hover-navigation span {
+  border-radius: 10px;
+  background-color: #232b2b8a;
+  color: #eee;
+  padding: 0.5rem;
+}
+
+section .logo-h3 {
+  font-size: 0.9rem;
+  text-align: left;
+  color: #2998ff;
+}
+
+section .logo-h3 span {
+  border-radius: 10px;
+  background-color: #2998ff;
+  color: #eee;
+  padding: 0.5rem;
+}
+
+section .paragraph {
+  display: block;
+  margin-top: 2rem;
+  color: #333333;
+}
+
+section .paragraph span {
+  border-radius: 10px;
+  background-color: #333333;
+  color: #eee;
+  padding: 0.5rem;
+}
+
+section .white-text {
+  color: #333333;
+  margin-top: 2rem;
+}
+
+section .white-text span {
+  border-radius: 10px;
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 0.5rem;
 }
 
 footer {

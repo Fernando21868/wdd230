@@ -1,5 +1,6 @@
 @media only screen and (min-width: 37.5em) {
-  h1 {
+  h1,
+  section h1 {
     font-size: 2rem;
   }
   header h2 {
@@ -33,13 +34,17 @@
 
   main .span-2 {
     grid-column: span 2;
+    margin: 0 auto;
   }
 
-  section h2 {
+  section h2,
+  section .primary-navigation,
+  section .hover-navigation {
     font-size: 1.3rem;
   }
 
-  main section p {
+  main section p,
+  li {
     font-size: 1rem;
   }
 
@@ -56,7 +61,8 @@
     font-size: 1.5rem;
   }
 
-  footer h3 {
+  footer h3,
+  section .logo-h3 {
     font-size: 1.3rem;
   }
 }
