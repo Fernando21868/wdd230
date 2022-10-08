@@ -138,7 +138,7 @@ li {
 }
 
 section h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
   color: #232b2b;
   text-shadow: none;
@@ -152,7 +152,7 @@ section h1 {
 }
 
 section .primary-navigation {
-  font-size: 1rem;
+  font-size: 0.8rem;
   background-color: inherit;
   color: #232b2bca;
 }
@@ -165,7 +165,7 @@ section .primary-navigation span {
 }
 
 section .hover-navigation {
-  font-size: 1rem;
+  font-size: 0.8rem;
   background-color: inherit;
   color: #232b2b8a;
 }
@@ -178,7 +178,7 @@ section .hover-navigation span {
 }
 
 section .logo-h3 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   text-align: left;
   color: #2998ff;
 }
