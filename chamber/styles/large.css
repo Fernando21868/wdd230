@@ -62,8 +62,16 @@
   }
 
   main .join {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     grid-column: 1/2;
     grid-row: 3;
+  }
+
+  main .join div{
+    width: 100%;
   }
 
   main .event {
@@ -74,10 +82,13 @@
   main .weather {
     grid-column: 1/2;
     grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   main .spotlight3 {
-    display: inherit;
+    display: flex;
   }
 
   footer .logo svg {
