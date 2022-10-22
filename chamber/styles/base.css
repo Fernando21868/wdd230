@@ -211,12 +211,12 @@ main .event {
 }
 
 main .event span {
-  color: rgba(41, 152, 255, 0.7);
+  color: #2998ff;
   cursor: pointer;
 }
 
 main .event span:hover {
-  color: #2998ff;
+  color: #eee;
 }
 
 .weather h2 {
@@ -238,7 +238,6 @@ main .event span:hover {
 
 .weather-logo img {
   width: 100%;
-  width: 150px;
 }
 
 .weather-info p:nth-child(1),
@@ -285,7 +284,6 @@ main .event span:hover {
 
 .spotlight img {
   width: 100%;
-  width: 150px;
 }
 
 .spotlight {
