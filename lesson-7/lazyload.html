@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressive Loading of Images</title>
+    <meta
+      name="description"
+      content="Progressive Loading of Images for Fernando Arias in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+  >
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <main>
+        <h1>Progressive Loading (Images)</h1>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-autum.jpg" alt="A landscape in the autumn season.">
+        </picture>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-forest.jpg" alt="A forest landscape">
+        </picture>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-frame.jpg" alt="A landscape drawn on a photo frame.">
+        </picture>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-garden.jpg" alt="A landscape of a very elegant garden.">
+        </picture>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-path.jpg" alt="A landscape of a very beautiful road.">
+        </picture>
+        <picture>
+            <img width="300" height="400" src="images/placeholder300x400.jpg" data-src="images/landscape-river.jpg" alt="A very beautiful river landscape.">
+        </picture>
+    </main>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
