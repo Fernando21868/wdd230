@@ -120,4 +120,18 @@
   footer .copyright .last-uptdated {
     display: inline-block;
   }
+
+  .card-container {
+    grid-column: span 4;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .card-title {
+    font-size: 1.6rem;
+  }
+
+  .card-paragraph {
+    font-size: 1.4rem;
+  }
 }

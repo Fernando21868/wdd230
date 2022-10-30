@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Home Page Build</title>
+    <title>Chamber Discover Page Build</title>
     <meta
       name="description"
-      content="Chamber Home Page Build for Fernando Arias in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+      content="Chamber Discover Page Build for Fernando Arias in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
   >
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -111,99 +111,66 @@
     </header>
     <nav>
       <ul id="primaryNav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="discover.html">Discover</a></li>
         <li><a href="#">Events/Activities</a></li>
         <li><a href="#">Entrepreneurs</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
     <main>
-      <div class="hero">
-        <picture>
-          <source media="(max-width: 200px)" srcset="images/small.jpg">
-          <source media="(max-width: 500px)" srcset="images/medium.jpg">
-          <source media="(max-width: 800px)" srcset="images/large.jpg">
-          <img src="images/1280.jpg" alt="Banner image of prove, people talking">
-        </picture>
-        <h2>Welcome to Jujuy</h2>
-        <div>
-          Join the Chamber
-        </div>
-      </div>
-      <div class="event">
-        <h2>Events to be announced in Jujuy</h2>
-        <p>An opening event of the Jujuy Chamber of Commerce will be held on Thursday at 4pm in the cultural city, join us and learn more about it.</p>
-        <span>More info...</span>
-      </div>
-      <div class="weather">
-        <div>
-          <h2>Weather</h2>
-          <div class="weather-logo">
-            <picture>
-              <source srcset="images/weather.webp" type="image/webp">
-            <source srcset="images/weather.jpg" type="image/jpeg">
-              <img width="150" height="144" src="images/weather.png" alt="Image of sunny weather with a little cloud.">
-            </picture>
-            <p><span id="temperature">40</span>°F</p>
-          </div>
-          <div class="weather-info">
-            <p>Sunny</p>
-            <p>Wind Speed: <span id="velocity">8</span> mph</p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
-          </div>
-        </div>
-      </div>
-      <div class="news">
-        <h2>News Release</h2>
-        <p>In this section you can see all the information related to the province of Jujuy. Jujuy has approximately 700,000 inhabitants, it has a climate that can vary greatly depending on the season of the year. The climates vary from very cold, temperate, dry, among many more. In Jujuy you can visit the cultural city that is located in the center of the city. Events will be held in the cultural city to learn more about the Jujuy Chamber of Commerce and the city's entrepreneurs.</p>
-      </div>
-      <div class="spotlights">
-        <div class="spotlight1 spotlight">
-          <h2>Insured parcels</h2>
+      <div class="card-container">
+        <div class="visits">Time in days: <span id="days">2</span></div>
+        <article class="card-none" data-class="card">
           <picture>
-            <source srcset="images/parcels.webp" type="image/webp">
-            <source srcset="images/parcels.jpg" type="image/jpeg">
-            <img width="100" height="100" src="images/parcels.png" alt="Image of a parcel.">
+            <img src="images/placeholder.jpg"  data-src="images/jujuy-city.jpg" alt="Image of the city of Jujuy, and a welcome sign to the city." width="600" height="370">
           </picture>
-          <div class="info">
-            <p>Parcels insured and delivered quickly.</p>
-            <p>parcels@gmail.com</p>
-            <p>+54 (388) 156-423-123</p>
+          <div class="card-info">
+            <h2 class="card-title">San Salvador de Jujuy (Capital)</h2>
+            <p class="card-paragraph">Jujuy is a province of Argentina. San Salvador de Jujuy is the capital of Jujuy. It is a city with a small number of inhabitants compared to other cities in Argentina.</p>
+            <p class="card-text"><small class="card-text-small">Population: 673,307 inhabitants.</small></p>
           </div>
-        </div>
-        <div class="spotlight2 spotlight">
-          <h2>Football fields</h2>
+        </article>
+        <article class="card-none" data-class="card">
           <picture>
-            <source srcset="images/soccer.webp" type="image/webp">
-            <source srcset="images/soccer.jpg" type="image/jpeg">
-            <img width="100" height="111" src="images/soccer.png" alt="Image of a person playing soccer.">
+            <img src="images/placeholder.jpg"  data-src="images/jujuy-salt.jpg" alt="Tourist place of Jujuy, Salinas de Jujuy." width="600" height="300">
           </picture>
-          <div class="info">
-            <p>Soccer fields for rent.</p>
-            <p>soccerfields@gmail.com</p>
-            <p>+54 (388) 156-866-363</p>
+          <div class="card-info">
+            <h2 class="card-title">Jujuy salt flats</h2>
+            <p class="card-paragraph">Jujuy has several tourist spots, one of which is the Jujuy salt flats. It is a place that is surrounded by mountains and completely made of salt.</p>
+            <p class="card-text"><small class="card-text-small">Jujuy area: 53,219 Km².</small></p>
           </div>
-        </div>
-        <div class="spotlight3 spotlight">
-          <h2>Car repair.</h2>
+        </article>
+        <article class="card-none" data-class="card">
           <picture>
-            <source srcset="images/mechanic.webp" type="image/webp">
-            <source srcset="images/mechanic.jpg" type="image/jpeg">
-            <img width="100" height="111" src="images/mechanic.png" alt="Image of a mechanic.">
+            <img src="images/placeholder.jpg"  data-src="images/jujuy-mountains.jpg" alt="Mountains of the province of Jujuy." width="600" height="338">
           </picture>
-          <div class="info">
-            <p>Trusted mechanic, fix your car.</p>
-            <p>mechanic@gmail.com</p>
-            <p>+54 (388) 156-566-263</p>
+          <div class="card-info">
+            <h2 class="card-title">Climate of Jujuy</h2>
+            <p class="card-paragraph">Jujuy is an arid place, with temperatures that can vary greatly from one season to another. It has all the climates that exist. Being able to be very cold at certain times and very hot at other times.</p>
+            <p class="card-text"><small class="card-text-small">Temperatures vary between 5°C and 23°C as an annual average.</small></p>
           </div>
-        </div>
-      </div>
-      <div class="join">
-        <div>
-          Join Us
-        </div>
-        <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
+        </article>
+        <article class="card-none" data-class="card">
+          <picture>
+            <img src="images/placeholder.jpg"  data-src="images/jujuy-village.jpg" alt="Hills of the province of Jujuy." width="600" height="416">
+          </picture>
+          <div class="card-info">
+            <h2 class="card-title">Regions</h2>
+            <p class="card-paragraph">The province of Jujuy, in Argentina, is the National Capital of the Pachamama; and is made up of four different regions: Yungas, Valles, Puna, and the famous Quebrada de Humahuaca. The landscapes change in their areas and the wonders of colors can be seen throughout the province.</p>
+            <p class="card-text"><small class="card-text-small">There is a hill that is called the Hill of 14 colors, which has 14 colors.</small></p>
+          </div>
+        </article>
+        <article class="card-none" data-class="card">
+          <picture>
+            <img src="images/placeholder.jpg"  data-src="images/jujuy-forest.jpg" alt="Forests, trees, and rivers of Jujuy." width="600" height="429">
+          </picture>
+          <div class="card-info">
+            <h2 class="card-title">Jujuy companies and entrepreneurs</h2>
+            <p class="card-paragraph">Jujuy has several landscapes, as well as forests, hot springs, and many tourist places. Entrepreneurs and entrepreneurs in Jujuy have hostels, places, and tours to take, which are not very expensive.</p>
+            <p class="card-text"><small class="card-text-small">Jujuy's main economic income is tourism and trade.</small></p>
+          </div>
+        </article>
       </div>
     </main>
     <footer>
@@ -236,6 +203,5 @@
       </div>
     </footer>
     <script src="scripts/index.js"></script>
-    <script src="scripts/windchill.js"></script>
   </body>
 </html>

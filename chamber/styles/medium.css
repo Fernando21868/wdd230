@@ -102,4 +102,26 @@
     display: inline;
     font-size: 1.7rem;
   }
+
+  .card:hover {
+    box-shadow: 0 0 15px #333;
+  }
+
+  .card-container {
+    grid-column: span 3;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-paragraph {
+    font-size: 1.2rem;
+  }
+
+  .card-text-small {
+    font-size: 0.9rem;
+  }
 }
