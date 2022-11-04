@@ -1,5 +1,5 @@
 @media only screen and (min-width: 35rem) {
-  .headings h1 {
+  .headings .title {
     font-size: 1.7rem;
   }
 
@@ -123,5 +123,23 @@
 
   .card-text-small {
     font-size: 0.9rem;
+  }
+
+  main .form-container{
+    margin: 0 auto;
+    grid-column: span 2;
+    width: 100%;
+  }
+
+  main .title-form{
+    grid-column: span 2;
+  }
+
+  main .thanks{
+    grid-column: span 3;
+  }
+
+  .membership-container{
+    grid-column: span 1;
   }
 }

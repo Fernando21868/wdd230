@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Home Page Build</title>
+    <title>Join Page</title>
     <meta
       name="description"
-      content="Chamber Home Page Build for Fernando Arias in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+      content="Join Page for Fernando Arias in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
   >
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -111,99 +111,74 @@
     </header>
     <nav>
       <ul id="primaryNav">
-        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
-        <li><a href="join.html">Join</a></li>
+        <li class="active"><a href="join.html">Join</a></li>
         <li><a href="#">Entrepreneurs</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
     </nav>
     <main>
-      <div class="hero">
-        <picture>
-          <source media="(max-width: 200px)" srcset="images/small.jpg">
-          <source media="(max-width: 500px)" srcset="images/medium.jpg">
-          <source media="(max-width: 800px)" srcset="images/large.jpg">
-          <img src="images/1280.jpg" alt="Banner image of prove, people talking">
-        </picture>
-        <h2>Welcome to Jujuy</h2>
-        <div>
-          Join the Chamber
+      <div class="form-container">
+        <h1 class="title-form">Join Us</h1>
+        <div class="user">
+          <svg style="color: rgb(41, 152, 255);" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"> <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" fill="#2998ff"></path> <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" fill="#2998ff"></path> </svg>
         </div>
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <legend>Basic Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Position Title <input type="text" name="ptitle" pattern="[a-zA-Z]*[-\s]*" oninvalid="this.setCustomValidity('☝🏼 Please enter only alpha characters, hyphen or space.')" onvalid="this.setCustomValidity('')"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Business Title <input type="text" name="btitle" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership</legend>
+                <div>Membership Levels</div>
+                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Description</legend>
+                <label class="top">Describe Your Business <textarea name="description"></textarea></label>
+                <label><input id="dateTime" type="hidden" name="dateTime"></label>
+            </fieldset>
+            <input type="submit" value="Join Us" class="submitBtn"> 
+        </form>
       </div>
-      <div class="event">
-        <h2>Events to be announced in Jujuy</h2>
-        <p>An opening event of the Jujuy Chamber of Commerce will be held on Thursday at 4pm in the cultural city, join us and learn more about it.</p>
-        <span>More info...</span>
-      </div>
-      <div class="weather">
-        <div>
-          <h2>Weather</h2>
-          <div class="weather-logo">
-            <picture>
-              <source srcset="images/weather.webp" type="image/webp">
-            <source srcset="images/weather.jpg" type="image/jpeg">
-              <img width="150" height="144" src="images/weather.png" alt="Image of sunny weather with a little cloud.">
-            </picture>
-            <p><span id="temperature">40</span>°F</p>
+      <div class="membership-container">
+        <div class="membership-element">
+          <div class="membership-icon">
+            <svg style="color: rgb(205, 127, 50);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v5l4-2 4 2v-5h4c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm0 13H4v-2h16v2zm0-5H4V4h16v6z" fill="#cd7f32"></path></svg>
           </div>
-          <div class="weather-info">
-            <p>Sunny</p>
-            <p>Wind Speed: <span id="velocity">8</span> mph</p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+          <h2>Bronze Membership</h2>
+          <p>Bronze membership costs only 10% more than normal, including many benefits. The number of ads you can do weekly will be 1 times. Trainings, meetings and training will have a 10% discount. The events you attend will have a 10% discount.</p>
+        </div>
+        <div class="membership-element">
+          <div class="membership-icon">
+            <svg style="color: rgb(255, 215, 0);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v5l4-2 4 2v-5h4c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm0 13H4v-2h16v2zm0-5H4V4h16v6z" fill="#ffd700"></path></svg>
           </div>
+          <h2>Gold Membership</h2>
+          <p>Gold membership costs only 50% more than normal, including many benefits. The number of ads you can do weekly will be 3 times. Trainings, meetings and trainings will have a 50% discount, and you will be given one free training per month. The events you attend will have a 50% discount.</p>
         </div>
-      </div>
-      <div class="news">
-        <h2>News Release</h2>
-        <p>In this section you can see all the information related to the province of Jujuy. Jujuy has approximately 700,000 inhabitants, it has a climate that can vary greatly depending on the season of the year. The climates vary from very cold, temperate, dry, among many more. In Jujuy you can visit the cultural city that is located in the center of the city. Events will be held in the cultural city to learn more about the Jujuy Chamber of Commerce and the city's entrepreneurs.</p>
-      </div>
-      <div class="spotlights">
-        <div class="spotlight1 spotlight">
-          <h2>Insured parcels</h2>
-          <picture>
-            <source srcset="images/parcels.webp" type="image/webp">
-            <source srcset="images/parcels.jpg" type="image/jpeg">
-            <img width="100" height="100" src="images/parcels.png" alt="Image of a parcel.">
-          </picture>
-          <div class="info">
-            <p>Parcels insured and delivered quickly.</p>
-            <p>parcels@gmail.com</p>
-            <p>+54 (388) 156-423-123</p>
+        <div class="membership-element">
+          <div class="membership-icon">
+            <svg style="color: rgb(41, 152, 255);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v5l4-2 4 2v-5h4c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm0 13H4v-2h16v2zm0-5H4V4h16v6z" fill="#2998ff"></path></svg>
           </div>
+          <h2>NP Membership</h2>
+          <p>If you own a non-profit organization, you can access all the benefits for free. You will have access to the events that take place monthly for free. Your organization can be trained twice a month for free. And you are offered the opportunity to publish your organization once a week for free.</p>
         </div>
-        <div class="spotlight2 spotlight">
-          <h2>Football fields</h2>
-          <picture>
-            <source srcset="images/soccer.webp" type="image/webp">
-            <source srcset="images/soccer.jpg" type="image/jpeg">
-            <img width="100" height="111" src="images/soccer.png" alt="Image of a person playing soccer.">
-          </picture>
-          <div class="info">
-            <p>Soccer fields for rent.</p>
-            <p>soccerfields@gmail.com</p>
-            <p>+54 (388) 156-866-363</p>
+        <div class="membership-element">
+          <div class="membership-icon">
+            <svg style="color: rgb(192, 192, 192);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v5l4-2 4 2v-5h4c1.11 0 2-.89 2-2V4c0-1.11-.89-2-2-2zm0 13H4v-2h16v2zm0-5H4V4h16v6z" fill="#c0c0c0"></path></svg>
           </div>
+          <h2>Silver Membership</h2>
+          <p>Silver membership costs only 30% more than normal, including many benefits. The number of ads you can do weekly will be 2 times. Trainings, meetings and training will have a 30% discount. The events you attend will have a 30% discount.</p>
         </div>
-        <div class="spotlight3 spotlight">
-          <h2>Car repair.</h2>
-          <picture>
-            <source srcset="images/mechanic.webp" type="image/webp">
-            <source srcset="images/mechanic.jpg" type="image/jpeg">
-            <img width="100" height="111" src="images/mechanic.png" alt="Image of a mechanic.">
-          </picture>
-          <div class="info">
-            <p>Trusted mechanic, fix your car.</p>
-            <p>mechanic@gmail.com</p>
-            <p>+54 (388) 156-566-263</p>
-          </div>
-        </div>
-      </div>
-      <div class="join">
-        <div>
-          Join Us
-        </div>
-        <p>Discover how to join the chamber of commerce and how it will benefit your organization</p>
       </div>
     </main>
     <footer>
@@ -236,6 +211,6 @@
       </div>
     </footer>
     <script src="scripts/index.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/join.js"></script>
   </body>
 </html>

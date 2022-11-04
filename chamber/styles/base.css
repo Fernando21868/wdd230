@@ -41,8 +41,10 @@ header {
   margin-left: 0.5rem;
 }
 
-.headings h1 {
+.headings .title {
+  margin-top: -0.3rem;
   font-size: 1.5rem;
+  font-weight: bold;
   color: #2998ff;
 }
 
@@ -51,6 +53,7 @@ header {
   color: #eee;
   font-weight: 700;
   font-size: 0.8rem;
+  margin-top: -1rem;
 }
 
 .socialMenu {
@@ -401,8 +404,8 @@ footer .copyright .separation {
   transition: filter 0.5s;
 }
 
-.card-container .visits{
-  background-color:#232b2b;
+.card-container .visits {
+  background-color: #232b2b;
   padding: 1.5rem;
   margin-bottom: 1rem;
   color: #eee;
@@ -410,4 +413,143 @@ footer .copyright .separation {
   font-weight: bold;
   font-style: normal;
   border-radius: 10px;
+}
+
+/* FORM */
+
+main .form-container{
+  background-color: #232b2b;
+  padding: 1rem;
+  max-width: 30rem;
+}
+
+main form{
+  max-width: 20rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .title-form{
+  color: #eee;
+  text-align: center;
+}
+
+main .user {
+  text-align: center;
+}
+
+main .user svg{
+  width: 6rem;
+}
+
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #eee;
+  padding: 0.5rem 1rem 1rem; 
+}
+
+form legend {
+  color: #2998ff;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #eee;
+  font-size: 1rem;
+}
+
+form div{
+  background-color: inherit;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+}
+
+form label.top input,
+form label.top textarea,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  padding: 0.75rem;
+  color: #333;
+  width: 100%;
+  max-width: 20rem;
+  background-color: #eee;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: #fff;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color:hsl(209, 100%, 58%, 0.7);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  margin-left: 1rem;
+  max-width: 286px;
+  width: 100%;
+  cursor: pointer;
+}
+
+form input.submitBtn:hover {
+  background-color: hsl(209, 100%, 58%, 1);
+}
+
+form label.top input:required {
+  border: red solid 3px;
+}
+
+form label.top input:required:valid {
+  border: green solid 3px;
+}
+
+main .thanks{
+  margin: 0 auto;
+  background-color: #232b2b;
+  text-align: center;
+  max-width: 600px;
+  padding: 2rem;
+  color: #eee;
+  border-radius: 10px;
+}
+
+main .thanks h2{
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+main .thanks svg{
+  width: 4rem;
+}
+
+.membership-container{
+  background-color: inherit;
+  max-width: 600px;
+}
+
+.membership-element{
+  line-height: 1.3rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+  color: #eee;
+  padding: 1rem;
+  text-align: center;
+}
+
+.membership-element:last-child{
+  margin-bottom: 0;
+}
+
+.membership-icon svg{
+  width: 6rem;
 }
