@@ -33,6 +33,7 @@ main {
   background-color: #eee;
   color: #333;
   border: solid 1px #333;
+  padding: 1rem;
 }
 
 .cards section h2 {
@@ -40,9 +41,8 @@ main {
 }
 
 .cards section img {
-  width: auto;
+  width: 100%;
   max-width: 300px;
   max-height: 100%;
-  margin-bottom: 1rem;
   box-shadow: 0 0 20px #333;
 }

@@ -5,9 +5,8 @@ const cards = document.querySelector('.cards');
 async function getData() {
   const request = new Request(requestURL);
   const response = await fetch(request);
-  const data = await response.json();
-  const prophets = data['prophets'];
-  console.log(prophets);
+  const jsonObject = await response.json();
+  const prophets = jsonObject['prophets'];
   prophets.forEach((prophet) => {
     displayProphets(prophet);
   });
