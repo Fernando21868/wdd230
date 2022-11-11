@@ -7,7 +7,7 @@
       "website": "http://www.elamigo.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elamigo.jpg?raw=true",
       "membership": "silver",
-      "opening year": 2010
+      "openingyear": 2010
     },
     {
       "name": "Decojuy Muebles",
@@ -16,7 +16,7 @@
       "website": "https://decojuy.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/decojuy.jpg?raw=true",
       "membership": "silver",
-      "opening year": 2011
+      "openingyear": 2011
     },
     {
       "name": "Supermercados Comodin",
@@ -25,7 +25,7 @@
       "website": "https://supermercadoscomodin.com/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/comodin.jpg?raw=true",
       "membership": "gold",
-      "opening year": 2008
+      "openingyear": 2008
     },
     {
       "name": "ChangoMas Jujuy",
@@ -34,7 +34,7 @@
       "website": "https://www.masonline.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/changomas.jpg?raw=true",
       "membership": "gold",
-      "opening year": 2007
+      "openingyear": 2007
     },
     {
       "name": "NICO Fiambres - Lacteos",
@@ -43,7 +43,7 @@
       "website": "https://es-la.facebook.com/nicofiambres/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/nicofiambres.jpg?raw=true",
       "membership": "bronze",
-      "opening year": 2015
+      "openingyear": 2015
     },
     {
       "name": "El Sol Corralon",
@@ -52,7 +52,7 @@
       "website": "https://m.facebook.com/people/El-SOl-Corralon/100041901081733/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elsol.jpg?raw=true",
       "membership": "bronze",
-      "opening year": 2016
+      "openingyear": 2016
     },
     {
       "name": "Fundacion Alas de Aguila",
@@ -61,7 +61,7 @@
       "website": "https://fundacionalasdeaguila.org/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/aguila.jpg?raw=true",
       "membership": "np",
-      "opening year": 2018
+      "openingyear": 2018
     },
     {
       "name": "Fundacion Integrando",
@@ -70,7 +70,7 @@
       "website": "https://fundacionintegrando.com/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/integrando.jpg?raw=true",
       "membership": "np",
-      "opening year": 2012
+      "openingyear": 2012
     },
     {
       "name": "Universidad Nacional de Jujuy",
@@ -79,7 +79,7 @@
       "website": "https://www.unju.edu.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/unju.jpg?raw=true",
       "membership": "np",
-      "opening year": 1972
+      "openingyear": 1972
     }
   ]
 }
