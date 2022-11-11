@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {
+      "name": "Corralon El Amigo Jujuy",
+      "address": "Alte. Brown 2626 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 609-3866",
+      "website": "http://www.elamigo.com.ar/",
+      "imageurl": "",
+      "membership": "silver",
+      "opening year": 2010
+    },
+    {
+      "name": "Decojuy Muebles",
+      "address": "Alte. Brown 915 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 527-1544",
+      "website": "https://decojuy.com.ar/",
+      "imageurl": "",
+      "membership": "silver",
+      "opening year": 2011
+    },
+    {
+      "name": "Supermercados Comodin",
+      "address": "Av. Carlos Undeano 981 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 428-0888",
+      "website": "https://supermercadoscomodin.com/",
+      "imageurl": "",
+      "membership": "gold",
+      "opening year": 2008
+    },
+    {
+      "name": "ChangoMas Jujuy",
+      "address": "Riobamba RN9 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 555-2426",
+      "website": "https://www.masonline.com.ar/",
+      "imageurl": "",
+      "membership": "gold",
+      "opening year": 2007
+    },
+    {
+      "name": "NICO Fiambres - Lacteos",
+      "address": "Av. Corrientes 2776 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 431-1215",
+      "website": "https://es-la.facebook.com/nicofiambres/",
+      "imageurl": "",
+      "membership": "bronze",
+      "opening year": 2015
+    },
+    {
+      "name": "El Sol Corralon",
+      "address": "Alte. Brown 2445 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 425-2000",
+      "website": "https://m.facebook.com/people/El-SOl-Corralon/100041901081733/",
+      "imageurl": "",
+      "membership": "bronze",
+      "opening year": 2016
+    },
+    {
+      "name": "Fundacion Alas de Aguila",
+      "address": "Independencia 875 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 483-3042",
+      "website": "https://fundacionalasdeaguila.org/",
+      "imageurl": "",
+      "membership": "np",
+      "opening year": 2018
+    },
+    {
+      "name": "Fundacion Integrando",
+      "address": "Gral. Lamadrid 643 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 423-5350",
+      "website": "https://fundacionintegrando.com/",
+      "imageurl": "",
+      "membership": "np",
+      "opening year": 2018
+    },
+    {
+      "name": "Universidad Nacional de Jujuy",
+      "address": "Av. Bolivia 1239 4600 San Salvador de Jujuy, Argentina",
+      "phonenumber": "+54 9 388 422-1515",
+      "website": "https://www.unju.edu.ar/",
+      "imageurl": "",
+      "membership": "np",
+      "opening year": 1972
+    }
+  ]
+}
