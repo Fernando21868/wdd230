@@ -5,7 +5,7 @@
       "address": "Alte. Brown 2626 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 609-3866",
       "website": "http://www.elamigo.com.ar/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elamigo.jpg?raw=true",
       "membership": "silver",
       "opening year": 2010
     },
@@ -14,7 +14,7 @@
       "address": "Alte. Brown 915 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 527-1544",
       "website": "https://decojuy.com.ar/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/decojuy.jpg?raw=true",
       "membership": "silver",
       "opening year": 2011
     },
@@ -23,7 +23,7 @@
       "address": "Av. Carlos Undeano 981 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 428-0888",
       "website": "https://supermercadoscomodin.com/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/comodin.jpg?raw=true",
       "membership": "gold",
       "opening year": 2008
     },
@@ -32,7 +32,7 @@
       "address": "Riobamba RN9 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 555-2426",
       "website": "https://www.masonline.com.ar/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/changomas.jpg?raw=true",
       "membership": "gold",
       "opening year": 2007
     },
@@ -41,7 +41,7 @@
       "address": "Av. Corrientes 2776 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 431-1215",
       "website": "https://es-la.facebook.com/nicofiambres/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/nicofiambres.jpg?raw=true",
       "membership": "bronze",
       "opening year": 2015
     },
@@ -50,7 +50,7 @@
       "address": "Alte. Brown 2445 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 425-2000",
       "website": "https://m.facebook.com/people/El-SOl-Corralon/100041901081733/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elsol.jpg?raw=true",
       "membership": "bronze",
       "opening year": 2016
     },
@@ -59,7 +59,7 @@
       "address": "Independencia 875 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 483-3042",
       "website": "https://fundacionalasdeaguila.org/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/aguila.jpg?raw=true",
       "membership": "np",
       "opening year": 2018
     },
@@ -68,16 +68,16 @@
       "address": "Gral. Lamadrid 643 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 423-5350",
       "website": "https://fundacionintegrando.com/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/integrando.jpg?raw=true",
       "membership": "np",
-      "opening year": 2018
+      "opening year": 2012
     },
     {
       "name": "Universidad Nacional de Jujuy",
       "address": "Av. Bolivia 1239 4600 San Salvador de Jujuy, Argentina",
       "phonenumber": "+54 9 388 422-1515",
       "website": "https://www.unju.edu.ar/",
-      "imageurl": "",
+      "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/unju.jpg?raw=true",
       "membership": "np",
       "opening year": 1972
     }
