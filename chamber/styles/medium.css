@@ -142,4 +142,8 @@
   .membership-container{
     grid-column: span 1;
   }
+
+  .cards, .menu-cards{
+    grid-column: span 3;
+  }
 }

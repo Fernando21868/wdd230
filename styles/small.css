@@ -77,3 +77,8 @@ footer h3 {
   font-size: 1rem;
   color: #02198b;
 }
+
+main li.wireframe{
+  list-style-type: circle;
+  margin-left: 2rem;
+}

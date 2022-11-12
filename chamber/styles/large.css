@@ -154,4 +154,31 @@
   .membership-container{
     grid-column: span 2;
   }
+
+  .cards, .menu-cards{
+    grid-column: span 4;
+  }
+
+  .cards.list section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cards.list section h2:nth-of-type(1){
+    width: 25%;
+  }
+
+  .cards.list section p:nth-of-type(1){
+    width: 25%;
+  }
+
+  .cards.list section p:nth-of-type(2){
+    width: 25%;
+    text-align: center;
+  }
+
+  .cards.list section a:nth-of-type(1){
+    width: 25%;
+  }
 }
