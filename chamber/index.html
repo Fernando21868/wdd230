@@ -140,16 +140,14 @@
           <h2>Weather</h2>
           <div class="weather-logo">
             <picture>
-              <source srcset="images/weather.webp" type="image/webp">
-            <source srcset="images/weather.jpg" type="image/jpeg">
-              <img width="150" height="144" src="images/weather.png" alt="Image of sunny weather with a little cloud.">
+              <img src="" alt="" id="weather-icon">
             </picture>
-            <p><span id="temperature">40</span>°F</p>
+            <p><span id="weather-temperature"></span>°C</p>
           </div>
           <div class="weather-info">
-            <p>Sunny</p>
-            <p>Wind Speed: <span id="velocity">8</span> mph</p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+            <p id="weather-condition"></p>
+            <p>Wind Speed: <span id="weather-speed"></span> km/h</p>
+            <p>Wind Chill: <span id="weather-wind-chill"></span></p>
           </div>
         </div>
       </div>
