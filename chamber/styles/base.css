@@ -222,8 +222,8 @@ main .event span:hover {
   color: #eee;
 }
 
-.weather, .weather div, .weather-info{
-  background-color: #eee;
+.weather, .weather div{
+  background-color: #2998ff;
   color: #333;
 }
 
