@@ -251,9 +251,13 @@ main .event span:hover {
 .spotlight p:nth-child(1) {
   font-weight: bold;
   font-size: 1.5rem;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #eee;
   margin: 1rem;
   padding: 1rem;
+}
+
+.weather-info p:nth-child(1){
+  border-bottom: 1px solid #333;
 }
 
 .weather-info,
