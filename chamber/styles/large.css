@@ -181,4 +181,8 @@
   .cards.list section a:nth-of-type(1){
     width: 25%;
   }
+
+  .contact-container{
+    grid-column: span 2;
+  }
 }
