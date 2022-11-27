@@ -12,8 +12,12 @@ async function getData() {
     (company) =>
       company.membership === 'silver' || company.membership === 'gold'
   );
-  const index = Math.floor(Math.random() * (3 - 1 + 1) + 1);
+  const index = Math.floor(Math.random() * (4 - 1 + 1) + 1);
   companies.splice(index - 1, 1);
+  for (let i = companies.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [companies[i], companies[j]] = [companies[j], companies[i]];
+  }
   companies.forEach((company, index) => {
     displayCompanies(company, index);
   });
