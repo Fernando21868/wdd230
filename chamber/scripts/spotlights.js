@@ -29,6 +29,8 @@ function displayCompanies(company, index) {
   <div class="spotlight${index + 1} spotlight">
     <h2>${company.name}</h2>
     <picture>
+      <source srcset="${company.imagewebp}" type="image/webp">
+      <source srcset="${company.imageurl}" type="image/jpeg">
       <img width="100" height="100" src="${company.imageurl}" alt="${
     company.name
   }">
