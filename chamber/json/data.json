@@ -6,6 +6,7 @@
       "phonenumber": "+54 9 388 609-3866",
       "website": "http://www.elamigo.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elamigo.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/elamigo.webp",
       "membership": "silver",
       "openingyear": 2010
     },
@@ -15,6 +16,7 @@
       "phonenumber": "+54 9 388 527-1544",
       "website": "https://decojuy.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/decojuy.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/decojuy.webp",
       "membership": "silver",
       "openingyear": 2011
     },
@@ -24,6 +26,7 @@
       "phonenumber": "+54 9 388 428-0888",
       "website": "https://supermercadoscomodin.com/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/comodin.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/comodin.webp",
       "membership": "gold",
       "openingyear": 2008
     },
@@ -33,6 +36,7 @@
       "phonenumber": "+54 9 388 555-2426",
       "website": "https://www.masonline.com.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/changomas.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/changomas.webp",
       "membership": "gold",
       "openingyear": 2007
     },
@@ -42,6 +46,7 @@
       "phonenumber": "+54 9 388 431-1215",
       "website": "https://es-la.facebook.com/nicofiambres/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/nicofiambres.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/nicofiambres.webp",
       "membership": "bronze",
       "openingyear": 2015
     },
@@ -51,6 +56,7 @@
       "phonenumber": "+54 9 388 425-2000",
       "website": "https://m.facebook.com/people/El-SOl-Corralon/100041901081733/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/elsol.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/elsol.webp",
       "membership": "bronze",
       "openingyear": 2016
     },
@@ -60,6 +66,7 @@
       "phonenumber": "+54 9 388 483-3042",
       "website": "https://fundacionalasdeaguila.org/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/aguila.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/aguila.webp",
       "membership": "np",
       "openingyear": 2018
     },
@@ -69,6 +76,7 @@
       "phonenumber": "+54 9 388 423-5350",
       "website": "https://fundacionintegrando.com/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/integrando.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/integrando.webp",
       "membership": "np",
       "openingyear": 2012
     },
@@ -78,6 +86,7 @@
       "phonenumber": "+54 9 388 422-1515",
       "website": "https://www.unju.edu.ar/",
       "imageurl": "https://github.com/Fernando21868/wdd230/blob/main/chamber/images/unju.jpg?raw=true",
+      "imagewebp": "https://raw.githubusercontent.com/Fernando21868/wdd230/main/chamber/images/unju.webp",
       "membership": "np",
       "openingyear": 1972
     }
