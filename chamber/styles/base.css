@@ -226,7 +226,7 @@ main .event a:hover {
 
 .weather, .weather div{
   background-color: #2998ff;
-  color: #333;
+  color: #000;
 }
 
 .weather h2 {
